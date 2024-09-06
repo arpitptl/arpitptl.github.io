@@ -792,17 +792,17 @@ $(document).ready(function () {
   
   // Preloader text handling
   
-//   new Typewriter(".loading-text", {
-//     strings: ["Arpit Is Thinking..."],
-//     autoStart: false,
-//     delay: 50,
-//     cursor: "|",
-//     deleteSpeed: 10,
-//   });
+  new Typewriter(".loading-text", {
+    strings: ["Arpit Is Thinking..."],
+    autoStart: false,
+    delay: 50,
+    cursor: "|",
+    deleteSpeed: 10,
+  });
   setTimeout(() => {
     let loadingText = document.querySelector(".loader");
     loadingText.style.display = "none";
-  }, 0);
+  }, 1000);
   
   // Scroll to top button
   
