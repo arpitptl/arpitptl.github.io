@@ -802,7 +802,7 @@ $(document).ready(function () {
   setTimeout(() => {
     let loadingText = document.querySelector(".loader");
     loadingText.style.display = "none";
-  }, 100);
+  }, 2);
   
   // Scroll to top button
   
